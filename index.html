@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Online player</title>
+        <link rel="stylesheet" href="public/css/style.css">
+    </head>
+    <body>
+
+        <!-- Controls -->
+        <div class="controlsOuter">
+            <div class="controlsInner">
+              <div id="loading"></div>
+              <div class="btn" id="playBtn"></div>
+              <div class="btn" id="pauseBtn"></div>
+              <div class="btn" id="nextBtn"><div class="playBtn"></div><div class="playBtn left-300"></div></div>
+            </div>
+            <div class="btn" id="volumeBtn"></div>
+        </div>
+
+        <script src="https://sdk.amazonaws.com/js/aws-sdk-2.548.0.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="public/js/howler.js"></script>
+        <script src="public/js/player.js"></script>
+    </body>
+</html>
